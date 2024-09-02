@@ -64,7 +64,7 @@ Team Espressif Systems
   margin-bottom: calc(var(--size) * 1.5);
   place-items: start center;
   gap: 5px;
-  
+
   &:has(:hover) img:not(:hover),
   &:has(:focus) img:not(:focus){
     filter: brightness(0.5) contrast(0.5);
@@ -79,8 +79,8 @@ Team Espressif Systems
     grid-column: auto / span 2;
     border-radius: 5px;
 
-    &:nth-child(5n - 1) { 
-      grid-column: 2 / span 2 
+    &:nth-child(5n - 1) {
+      grid-column: 2 / span 2
     }
 
     &:hover,
@@ -89,7 +89,7 @@ Team Espressif Systems
       z-index: 1;
       transition: clip-path 0.25s, filter 0.25s;
     }
-    
+
     &:focus {
       outline: 1px dashed black;
       outline-offset: -5px;
