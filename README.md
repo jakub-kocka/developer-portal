@@ -15,29 +15,5 @@ If you want to contribute to this project, it would be nice to see the rendered 
 
 See also the Contribution Guide articles:
 
-- [Content contribution workflow](./content/pages/contribution-guide/content-contrib-workflow/index.md)
-- [Content writing workflow](./content/pages/contribution-guide/content-writing-workflow/index.md)
-
-
-## Use pre-commit
-
-This project has a [pre-commit][] hook that can perform the following checks:
-
-- Enforce coding standards and best practices in the project's codebase
-- Check links using [lychee][]
-  - **Important**: requires Docker
-  - `lychee` also runs as a GitHub action on pushes to main
-
-[pre-commit]: https://pre-commit.com/
-[lychee]: https://github.com/lycheeverse/lychee
-
-If you want to use pre-commit, in your project folder, run:
-
-```sh
-# Install requirements
-pip install -r requirements.txt
-# Set up git hook scripts
-pre-commit install
-# Remove git hook scripts (if not needed)
-pre-commit uninstall
-```
+- [Contribution workflow](./content/pages/contribution-guide/contrib-workflow/index.md)
+- [Writing content](./content/pages/contribution-guide/writing-content/index.md)
